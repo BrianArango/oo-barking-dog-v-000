@@ -1,17 +1,18 @@
 # Your code goes here 
-class Dog(name, bark)
+class Dog
 def name=(name)
     @name = name
   end
   def name(name)
     @name = name
   end
-  def bark(bark)
-    bark
+  def bark
+    puts "woof!"
   end
 end
 
-name, bark = Dog.new("Fido", "woof!")
+fido = Dog.new("fido")
+
 
 
 
