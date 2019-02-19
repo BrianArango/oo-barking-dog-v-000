@@ -13,7 +13,7 @@ def name=(name)
   end
 end
 
-fido = Dog.name("Fido")
+fido = Dog.name
 
 
 
